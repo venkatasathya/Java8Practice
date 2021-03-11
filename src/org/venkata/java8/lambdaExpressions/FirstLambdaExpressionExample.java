@@ -14,6 +14,7 @@ interface Drawable{
             //with lambda
             Drawable d2=()->{
                 System.out.println("Drawing "+width);
+                System.out.println("Tested");
             };
             d2.draw();
         }
